@@ -1,5 +1,9 @@
 main {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 2px 2px 5px black;
 }
 
 .tabuleiro div input {
@@ -10,4 +14,32 @@ main {
      border-radius: 6px;
      font-size: 30px;
      cursor: pointer;
+}
+
+body {
+    background-color: mediumslateblue;
+}
+
+.bel {
+    position: fixed;
+    margin-left: 950px;
+    width: 200px;
+}    
+
+.resultado {
+    /* margin: -10px auto; */
+}
+
+.span {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.voltar {
+    padding: 10px;
+    background-color: rgb(104, 236, 238);
+    color: #fff;
+    text-decoration: none;
 }

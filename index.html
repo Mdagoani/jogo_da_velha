@@ -6,32 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo da Velha</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script/.js"></script>
+    <script src="js/script.js"></script>
 
 </head>
 <body>
+     <img class="bel" src="/image/bel.png">
+
     <main>
         <section>
             <h1>Jogo da Velha</h1>
         </section>
         <section class="tabuleiro">
             <div>
-                <input type="button" value=" " id="btn1" onclick="clickbtn1()">
-                <input type="button" value=" " id="btn2">
-                <input type="button" value=" " id="btn3">
+                <input type="button" value=" " id="btn1" onclick="clickBtn1()">
+                <input type="button" value=" " id="btn2" onclick="clickBtn2()">
+                <input type="button" value=" " id="btn3" onclick="clickBtn3()">
             </div>
             <div>
-                <input type="button" value=" ">
-                <input type="button" value=" ">
-                <input type="button" value=" ">
+                <input type="button" value=" " id="btn4" onclick="clickBtn4()">
+                <input type="button" value=" " id="btn5" onclick="clickBtn5()">
+                <input type="button" value=" " id="btn6" onclick="clickBtn6()">
             </div>
             <div>
-                <input type="button" value=" ">
-                <input type="button" value=" ">
-                <input type="button" value=" ">
+                <input type="button" value=" " id="btn7" onclick="clickBtn7()">
+                <input type="button" value=" " id="btn8" onclick="clickBtn8()">
+                <input type="button" value=" " id="btn9" onclick="clickBtn9()">
             </div>
         </section>
-        <section></section>
+        <section>
+            <h2 class="resultado">
+                <span id="lblJogador" class="span">Jogador X</span>
+                <span id="lblJogadas" class="span">(1ª Jogada)</span>
+            </h2>
+            <input type="button"  value="Reiniciar"
+            id="btnReiniciar" onclick="clickReiniciar()">
+
+        </section>
     </main>
 </body>
 </html>
